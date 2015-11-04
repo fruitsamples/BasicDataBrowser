@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		195DF8C9FE9D4F0611CA2CBB = {
+			children = (
+				4F94ED6907B3087700AE9F13,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//190
+//191
+//192
+//193
+//194
+//200
+//201
+//202
+//203
+//204
+		20286C28FDCF999611CA2CEA = {
+			buildSettings = {
+			};
+			buildStyles = (
+				F54B3B19016B9E9201CB1753,
+				F54B3B1A016B9E9201CB1753,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 20286C29FDCF999611CA2CEA;
+			projectDirPath = "";
+			targets = (
+				4F94ED5E07B3087700AE9F13,
+			);
+		};
+		20286C29FDCF999611CA2CEA = {
+			children = (
+				20286C2AFDCF999611CA2CEA,
+				20286C2CFDCF999611CA2CEA,
+				20286C32FDCF999611CA2CEA,
+				195DF8C9FE9D4F0611CA2CBB,
+				4F94ED6707B3087700AE9F13,
+			);
+			isa = PBXGroup;
+			name = BasicDataBrowser;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		20286C2AFDCF999611CA2CEA = {
+			children = (
+				4F16C73D04C4890700F668DF,
+			);
+			isa = PBXGroup;
+			name = Sources;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		20286C2CFDCF999611CA2CEA = {
+			children = (
+				2E8C970103674FC104CA0E77,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		20286C32FDCF999611CA2CEA = {
+			children = (
+				2EFD145903674CBF04CA0E77,
+			);
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//200
+//201
+//202
+//203
+//204
+//2E0
+//2E1
+//2E2
+//2E3
+//2E4
+		2E8C970103674FC104CA0E77 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.rez;
+			path = BasicDataBrowser.r;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2EFD145903674CBF04CA0E77 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Carbon.framework;
+			path = /System/Library/Frameworks/Carbon.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+//2E0
+//2E1
+//2E2
+//2E3
+//2E4
+//4F0
+//4F1
+//4F2
+//4F3
+//4F4
+		4F16C73D04C4890700F668DF = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = BasicDataBrowser.cp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		4F94ED5E07B3087700AE9F13 = {
+			buildPhases = (
+				4F94ED5F07B3087700AE9F13,
+				4F94ED6007B3087700AE9F13,
+				4F94ED6107B3087700AE9F13,
+				4F94ED6307B3087700AE9F13,
+				4F94ED6507B3087700AE9F13,
+			);
+			buildRules = (
+				4F94ED6807B3087700AE9F13,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "/System/Library/Frameworks/Carbon.framework/Frameworks /System/Library/Frameworks/CoreServices.framework/Frameworks /System/Library/Frameworks/ApplicationServices.framework/Frameworks";
+				GCC_PREPROCESSOR_DEFINITIONS = "CARBON_ON_MACH_O=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-BasicDataBrowser.plist";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Demos";
+				OTHER_CFLAGS = "-Wno-trigraphs";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = "\U0001BasicDataBrowser";
+				SECTORDER_FLAGS = "\U0001";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = BasicDataBrowser;
+			productInstallPath = "$(HOME)/Applications";
+			productName = BasicDataBrowser;
+			productReference = 4F94ED6907B3087700AE9F13;
+			productType = "com.apple.product-type.application";
+		};
+		4F94ED5F07B3087700AE9F13 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F94ED6007B3087700AE9F13 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F94ED6107B3087700AE9F13 = {
+			buildActionMask = 2147483647;
+			files = (
+				4F94ED6207B3087700AE9F13,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F94ED6207B3087700AE9F13 = {
+			fileRef = 4F16C73D04C4890700F668DF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4F94ED6307B3087700AE9F13 = {
+			buildActionMask = 2147483647;
+			files = (
+				4F94ED6407B3087700AE9F13,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F94ED6407B3087700AE9F13 = {
+			fileRef = 2EFD145903674CBF04CA0E77;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4F94ED6507B3087700AE9F13 = {
+			buildActionMask = 2147483647;
+			files = (
+				4F94ED6607B3087700AE9F13,
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F94ED6607B3087700AE9F13 = {
+			fileRef = 2E8C970103674FC104CA0E77;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4F94ED6707B3087700AE9F13 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.xml;
+			path = "Info-BasicDataBrowser.plist";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		4F94ED6807B3087700AE9F13 = {
+			compilerSpec = com.apple.compilers.gcc;
+			fileType = sourcecode.c;
+			isEditable = 1;
+			isa = PBXBuildRule;
+			outputFiles = (
+			);
+		};
+		4F94ED6907B3087700AE9F13 = {
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = BasicDataBrowser.app;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+//4F0
+//4F1
+//4F2
+//4F3
+//4F4
+//F50
+//F51
+//F52
+//F53
+//F54
+		F54B3B19016B9E9201CB1753 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				OPTIMIZATION_CFLAGS = "-O0";
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		F54B3B1A016B9E9201CB1753 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+	};
+	rootObject = 20286C28FDCF999611CA2CEA;
+}

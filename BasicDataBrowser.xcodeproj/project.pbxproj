@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 42;
+	objectVersion = 43;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22F3711B083B06380026EE4D /* BasicDataBrowser_Prefix.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F3711A083B06380026EE4D /* BasicDataBrowser_Prefix.h */; };
+		22F3715A083B102B0026EE4D /* BasicDataBrowser.nib in Resources */ = {isa = PBXBuildFile; fileRef = 22F37158083B102B0026EE4D /* BasicDataBrowser.nib */; };
 		4F94ED6207B3087700AE9F13 /* BasicDataBrowser.cp in Sources */ = {isa = PBXBuildFile; fileRef = 4F16C73D04C4890700F668DF /* BasicDataBrowser.cp */; };
 		4F94ED6407B3087700AE9F13 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFD145903674CBF04CA0E77 /* Carbon.framework */; };
 		4F94ED6607B3087700AE9F13 /* BasicDataBrowser.r in Rez */ = {isa = PBXBuildFile; fileRef = 2E8C970103674FC104CA0E77 /* BasicDataBrowser.r */; };
@@ -24,11 +26,13 @@
 /* End PBXBuildRule section */
 
 /* Begin PBXFileReference section */
+		22F3711A083B06380026EE4D /* BasicDataBrowser_Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicDataBrowser_Prefix.h; sourceTree = "<group>"; };
+		22F37159083B102B0026EE4D /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/BasicDataBrowser.nib; sourceTree = "<group>"; };
 		2E8C970103674FC104CA0E77 /* BasicDataBrowser.r */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.rez; path = BasicDataBrowser.r; sourceTree = "<group>"; };
 		2EFD145903674CBF04CA0E77 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
 		4F16C73D04C4890700F668DF /* BasicDataBrowser.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = BasicDataBrowser.cp; sourceTree = "<group>"; };
 		4F94ED6707B3087700AE9F13 /* Info-BasicDataBrowser.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Info-BasicDataBrowser.plist"; sourceTree = "<group>"; };
-		4F94ED6907B3087700AE9F13 /*  BasicDataBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = " BasicDataBrowser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F94ED6907B3087700AE9F13 /* BasicDataBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicDataBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +50,7 @@
 		195DF8C9FE9D4F0611CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4F94ED6907B3087700AE9F13 /*  BasicDataBrowser.app */,
+				4F94ED6907B3087700AE9F13 /* BasicDataBrowser.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +70,7 @@
 		20286C2AFDCF999611CA2CEA /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				22F3711A083B06380026EE4D /* BasicDataBrowser_Prefix.h */,
 				4F16C73D04C4890700F668DF /* BasicDataBrowser.cp */,
 			);
 			name = Sources;
@@ -74,6 +79,7 @@
 		20286C2CFDCF999611CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				22F37158083B102B0026EE4D /* BasicDataBrowser.nib */,
 				2E8C970103674FC104CA0E77 /* BasicDataBrowser.r */,
 			);
 			name = Resources;
@@ -94,6 +100,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22F3711B083B06380026EE4D /* BasicDataBrowser_Prefix.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +109,7 @@
 /* Begin PBXNativeTarget section */
 		4F94ED5E07B3087700AE9F13 /* BasicDataBrowser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE651A690C34724C00EC1FC8 /* Build configuration list for PBXNativeTarget "BasicDataBrowser" */;
+			buildConfigurationList = 4F05CE920891CDE7001F4398 /* Build configuration list for PBXNativeTarget "BasicDataBrowser" */;
 			buildPhases = (
 				4F94ED5F07B3087700AE9F13 /* Headers */,
 				4F94ED6007B3087700AE9F13 /* Resources */,
@@ -118,7 +125,7 @@
 			name = BasicDataBrowser;
 			productInstallPath = "$(HOME)/Applications";
 			productName = BasicDataBrowser;
-			productReference = 4F94ED6907B3087700AE9F13 /*  BasicDataBrowser.app */;
+			productReference = 4F94ED6907B3087700AE9F13 /* BasicDataBrowser.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,10 +133,12 @@
 /* Begin PBXProject section */
 		20286C28FDCF999611CA2CEA /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = BE651A6D0C34724C00EC1FC8 /* Build configuration list for PBXProject "BasicDataBrowser" */;
+			buildConfigurationList = 4F05CE960891CDE7001F4398 /* Build configuration list for PBXProject "BasicDataBrowser" */;
+			compatibilityVersion = "Xcode 3.0";
 			hasScannedForEncodings = 1;
 			mainGroup = 20286C29FDCF999611CA2CEA /* BasicDataBrowser */;
 			projectDirPath = "";
+			projectRoot = "";
 			targets = (
 				4F94ED5E07B3087700AE9F13 /* BasicDataBrowser */,
 			);
@@ -141,6 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22F3715A083B102B0026EE4D /* BasicDataBrowser.nib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,11 +178,23 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		22F37158083B102B0026EE4D /* BasicDataBrowser.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22F37159083B102B0026EE4D /* English */,
+			);
+			name = BasicDataBrowser.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		BE651A6A0C34724C00EC1FC8 /* Development */ = {
+		4F05CE930891CDE7001F4398 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				FRAMEWORK_SEARCH_PATHS = (
 					/System/Library/Frameworks/Carbon.framework/Frameworks,
 					/System/Library/Frameworks/CoreServices.framework/Frameworks,
@@ -180,133 +202,85 @@
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "CARBON_ON_MACH_O=1";
-				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
-				HEADER_SEARCH_PATHS = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BasicDataBrowser_Prefix.h;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
 				INFOPLIST_FILE = "Info-BasicDataBrowser.plist";
 				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Demos";
-				OPTIMIZATION_CFLAGS = "-O0";
-				OTHER_CFLAGS = "-Wno-trigraphs";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PREBINDING = NO;
-				PRODUCT_NAME = "$(value) BasicDataBrowser";
-				SECTORDER_FLAGS = "$(value)";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				PRODUCT_NAME = BasicDataBrowser;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
 			};
-			name = Development;
+			name = Debug;
 		};
-		BE651A6B0C34724C00EC1FC8 /* Deployment */ = {
+		4F05CE940891CDE7001F4398 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COPY_PHASE_STRIP = YES;
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					/System/Library/Frameworks/Carbon.framework/Frameworks,
 					/System/Library/Frameworks/CoreServices.framework/Frameworks,
 					/System/Library/Frameworks/ApplicationServices.framework/Frameworks,
 				);
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_PREPROCESSOR_DEFINITIONS = "CARBON_ON_MACH_O=1";
-				HEADER_SEARCH_PATHS = "";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BasicDataBrowser_Prefix.h;
 				INFOPLIST_FILE = "Info-BasicDataBrowser.plist";
 				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Demos";
-				OTHER_CFLAGS = "-Wno-trigraphs";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PREBINDING = NO;
-				PRODUCT_NAME = "$(value) BasicDataBrowser";
-				SECTORDER_FLAGS = "$(value)";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = app;
-				ZERO_LINK = NO;
-			};
-			name = Deployment;
-		};
-		BE651A6C0C34724C00EC1FC8 /* Default */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					/System/Library/Frameworks/Carbon.framework/Frameworks,
-					/System/Library/Frameworks/CoreServices.framework/Frameworks,
-					/System/Library/Frameworks/ApplicationServices.framework/Frameworks,
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = "CARBON_ON_MACH_O=1";
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "Info-BasicDataBrowser.plist";
-				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Demos";
-				OTHER_CFLAGS = "-Wno-trigraphs";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PREBINDING = NO;
 				PRODUCT_NAME = BasicDataBrowser;
-				SECTORDER_FLAGS = "\U0001";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
 				WRAPPER_EXTENSION = app;
 			};
-			name = Default;
+			name = Release;
 		};
-		BE651A6E0C34724C00EC1FC8 /* Development */ = {
+		4F05CE970891CDE7001F4398 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				SDKROOTS = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
 			};
-			name = Development;
+			name = Debug;
 		};
-		BE651A6F0C34724C00EC1FC8 /* Deployment */ = {
+		4F05CE980891CDE7001F4398 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				SDKROOTS = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
 			};
-			name = Deployment;
-		};
-		BE651A700C34724C00EC1FC8 /* Default */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
-			};
-			name = Default;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BE651A690C34724C00EC1FC8 /* Build configuration list for PBXNativeTarget "BasicDataBrowser" */ = {
+		4F05CE920891CDE7001F4398 /* Build configuration list for PBXNativeTarget "BasicDataBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE651A6A0C34724C00EC1FC8 /* Development */,
-				BE651A6B0C34724C00EC1FC8 /* Deployment */,
-				BE651A6C0C34724C00EC1FC8 /* Default */,
+				4F05CE930891CDE7001F4398 /* Debug */,
+				4F05CE940891CDE7001F4398 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
+			defaultConfigurationName = Release;
 		};
-		BE651A6D0C34724C00EC1FC8 /* Build configuration list for PBXProject "BasicDataBrowser" */ = {
+		4F05CE960891CDE7001F4398 /* Build configuration list for PBXProject "BasicDataBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE651A6E0C34724C00EC1FC8 /* Development */,
-				BE651A6F0C34724C00EC1FC8 /* Deployment */,
-				BE651A700C34724C00EC1FC8 /* Default */,
+				4F05CE970891CDE7001F4398 /* Debug */,
+				4F05CE980891CDE7001F4398 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
